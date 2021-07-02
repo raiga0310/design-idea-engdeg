@@ -17,15 +17,6 @@
     transition: opacity 100ms;
 }
 
-.box.display {
-    justify-content: center;
-    display: flex;
-}
-
-.display {
-    margin: 1em;
-}
-
 @keyframes fadeInAnime{
     from {
       opacity: 0;
@@ -41,4 +32,13 @@
 #rocket{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+
+.box.display {
+    justify-content: center;
+    display: flex;
+}
+
+.display {
+    margin: 1em;
 }

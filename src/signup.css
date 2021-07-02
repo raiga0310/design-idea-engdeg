@@ -42,3 +42,7 @@
 .display {
     margin: 1em;
 }
+
+.congestion-data.display {
+    text-align: center;
+}
